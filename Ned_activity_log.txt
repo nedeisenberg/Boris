@@ -4,6 +4,7 @@ Hours:
 -Began migrating existing tools and frameworks to respective WordPress sites.
   -Initialized BCLjsEnqueue.php and CISjsEnqueue.php plugins
     -for registering and enqueuing scripts into WordPress
+    -TODO: find appropriate plugin to do above...
 
 WEEK 11
 5/17/2018 - 5/23/2018
