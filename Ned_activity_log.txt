@@ -1,0 +1,112 @@
+WEEK 11
+5/17/2018 - 5/23/2018
+Hours: 3
+-Learned how to properly Register and Enqueue scripts (eg javascript) and styles (eg css)
+  -using a WP plugin written in php.
+  -having difficulty implementing
+-Allocated HD space for local BCL archive.
+
+----FINALS BREAK----
+
+WEEK 10
+4/26/2018 - 5/2/2018
+Hours: 4
+-Discovered pdf .js, the common framework for viewing pdf docs in the browser.
+-Uploaded 1 fiche’s worth of pdfs into the BCLArchive.net media library,
+  -noticing the need for globally indexed file names.
+-Created ‘scratchpad’ post draft.
+  -Implemented an <iframe> containing a url to pdf file in the media library and
+    -appended the #search=”” fragment to highlight query word.
+-Looked into the web-crawler paradigm and its (very limited) WP plugin implementations
+  -such as Sphider.
+-Initialized parent repo
+
+WEEK 9
+4/19/2018 - 4/25/2018
+Hours: 3
+-Revised Transcript2VTT applet to parse transcript into homogeneously subtitle blocks.
+-Added number-key speed change.
+
+WEEK 8
+4/12/2018 - 4/18/2018
+Hours: 10
+-Programmed a web applet for computer-assisted manual time-stamping using JS (jQuery), HTML, and CSS.
+  -It’s alive!
+    -https://www.nedeisenberg.github.io/Transcript2VTT
+
+WEEK 7
+4/5/2018 - 4/11/2018
+Hours: 8
+-Spent a couple hours researching conventional speech recognition,
+  -including phonemes, HMM/GMM and various terminologies in distributional probability methods.
+-In an effort to avoid the manual labor, attempted to design (and outlined) an algorithmic approach to unsupervised time-stamping.
+
+WEEK 6
+3/29/2018 - 4/4/2018
+Hours: 10
+-Commenced framing the mechanism of video tracking
+  -with interactive transcript, autoscroll, and text search within a JavaScript environment.
+-I began the w3c tutorial on JQuery,
+  -the popular JavaScript library for HTML scripting.
+-Built a working directory integrating Scripts, PHP, and the test dataset in JSON format.
+-Spent a very long time figuring out how to run JS and JQuery in a post, and
+  -was eventually successful!
+  -The JS environment will monitor the current time of an active video and scroll the transcript according to the VTT time-stamps;
+  -when a query is made in the transcript’s built in text box, JS will suspend the autoscroll and scroll to the term,
+    -whose onClick() will navigate the video playhead
+      -by revising currentTime parameter of the video element.
+
+WEEK 5
+3/22/2018 - 3/28/2018
+Hours: 5
+-Established tactic of creating PHP plugin that dynamically writes html/javascript
+  -within posts for the larger part of the overall legwork,
+    -effectively heading off methods involving shell scripting and XML.
+  -Started reading through the abundant plugin resources page and Plugin Developer Handbook.
+-Wrote and tested a basic, functioning PHP plugin called ‘hello robot’.
+-Discovered and installed “Code Embed” plugin, which can easily embed javascript into a post,
+  -effectively mitigating the need to write custom PHP (for now, and it was fun to learn anyhow).
+
+WEEK 4
+3/15/2018 - 3/21/2018
+Hours: 5
+-Returned to the task of programmatic post creation.
+  -Deduced Wordpress’s Import/Export feature, intended to facilitate migration, merge and backup of existing Wordpress sites.
+  -Induced the potential of using this feature for content population.
+-Created and populated a small personal wordpress blog
+  -in order to experiment with and reverse-engineer the XML structure encoding Wordpress content, and
+  -successfully uploaded novel post content by this avenue.
+  -Such a method can be significantly enhanced when paired with a scripting language dynamically generating XML.
+
+WEEK 3
+3/8/2018 - 3/14/2018
+Hours: 5
+-Met on campus with Eduardo, and we decided to fork into two development schemes:
+  -I investigate client-side-leaning approach (ei embedding html, and or javascript) and
+  -Eduardo server-side technologies (php, mysql, (L/M)AMP).
+-Began the task of hyperlinking video transcript to video navigation, using HTML5 as my approach.
+  -In the process, I discovered and earmarked useful paradigms such as,
+    -media fragments, webvtt, and the HTML5 video element & its attributes.
+-Created a demo prototype @ neocities.org for hypertext video navigation in HTML,
+  -using Python to parse the transcript source and dynamically generate html files.
+
+WEEK 2
+2/29/2018 - 3/7/2018
+Hours: 5
+-Video conference-called with Eduardo, wherein we conversed about numerous topics surrounding the Wordpress platform.
+-Did preliminary investigation into existing Wordpress plugins, API, and instructional resources,
+  -culminating in the instantiation of “Wordpress Hints” found in the local path.
+-Began to evaluate the likely necessity of programmatic page/post creation in Wordpress.
+
+WEEK 1
+2/24/2018-2/28/2018
+Hours: 5
+-Skimmed the BCL archive, in order to comprehend what remains to be collated (i.e. “missing fiches”) as well as the Author Index system.
+-Checked the status of the entire directory against Jelena’s note.
+-Then, I considered various scripting languages that might best be used in tandem with standard web conventions,
+  -Perl vs Python namely, deciding to move forward with Python, with which I have considerable prior knowledge.
+-Established a preliminary TODO list.
+  -Ascertained that the OCR’ed documents still contain ubiquitous syntactical flaws.
+    -Wondering how these might be mitigated, I looked into mathematical models for error correction .
+-I initialized a new, machine-readable Author index file: authorList.txt, which will need to be manually delimited.
+  -Anyone can contribute to this task, please go ahead.
