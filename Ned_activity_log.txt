@@ -2,6 +2,8 @@ WEEK 12
 5/24/2018 - 5/30/2018
 Hours:
 -Began migrating existing tools and frameworks to respective WordPress sites.
+  -Initialized BCLjsEnqueue.php and CISjsEnqueue.php plugins
+    -for registering and enqueuing scripts into WordPress
 
 WEEK 11
 5/17/2018 - 5/23/2018
