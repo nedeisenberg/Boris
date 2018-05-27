@@ -1,10 +1,15 @@
 WEEK 12
 5/24/2018 - 5/30/2018
-Hours:
+Hours:2.5
 -Began migrating existing tools and frameworks to respective WordPress sites.
   -Initialized BCLjsEnqueue.php and CISjsEnqueue.php plugins
     -for registering and enqueuing scripts into WordPress
     -TODO: find appropriate plugin to do above...
+      -UPDATE: found and installed 'Header and Footer Scripts'
+-Achieved insertion into the standard WordPress DOM
+-Next Steps:
+  -Port existing apps to WordPress
+  -Develop native pdf app
 
 WEEK 11
 5/17/2018 - 5/23/2018
