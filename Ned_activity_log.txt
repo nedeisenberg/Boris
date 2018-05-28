@@ -7,7 +7,9 @@ Hours: 5
     -TODO: find appropriate plugin to do above...
       -UPDATE: found and installed 'Header and Footer Scripts'
 -Achieved insertion into the standard WordPress DOM
--Began porting existing scripts to new framework, see 5-27 memo in Ned's drive.
+-Began porting existing scripts to new framework
+  -see 5-27 memo in Ned's drive.
+  -Created switchboard for loading/executing scripts
 -Next Steps:
   -Develop native pdf app
 
