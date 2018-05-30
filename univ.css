@@ -11,7 +11,13 @@
   /font-size: 4000%;
 }
 
+.text
+{
+    display:inline-block;
+}
+
 .heads_up
 {
+  display: inline-block;
   float:right;
 }
