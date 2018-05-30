@@ -10,5 +10,5 @@ second_column.innerHTML= 'bon nuit';
 
 
 //attach content to hook
-jQuery("#content").appendChild(video_column);
-jQuery("#content").appendChild(second_column);
+jQuery("#content").append(video_column);
+jQuery("#content").append(second_column);
