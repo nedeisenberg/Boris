@@ -13,6 +13,7 @@ Hours: 6 1:15
     -see 5-27 memo in Ned's drive.
     -Created switchboard for loading/executing scripts
     -Created unified GitHub development repository
+    -Began porting Transcript2VTT
       -Next Steps:
         -Develop native pdf app
 
