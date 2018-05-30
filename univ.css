@@ -10,6 +10,7 @@
   display: inline-block;
   top:0;
   float: left;
+  height: 75vh;
 }
 
 .title
