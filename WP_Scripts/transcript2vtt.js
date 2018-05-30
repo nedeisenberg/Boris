@@ -55,9 +55,22 @@ video_column.appendChild(mp4_submission);
 video_column.appendChild(active_video);
 
 transcript_submission = document.createElement('div');
-transcript_entry = document.createElement('textarea');
-submit_transcript = document.createElement('input');
+  transcript_entry = document.createElement('textarea');
+  transcript_entry.setAttribute('id','transcript_entry');
+  transcript_entry.style.height = '80%';
+  transcript_entry.style.width = '85%';
+  transcript_entry.innerHTML = 'PASTE TRANSCRIPT HERE';
+  submit_transcript = document.createElement('input');
+  submit_transcript.setAttribute('id', 'submit_transcript');
+  submit_transcript.setAttribute('value', 'Submit');
+  transcript_submission.appendChild(transcript_entry);
+  transcript_submission.appendChild(submit_transcript);
 transcript_renderer = document.createElement('div');
+transcript_renderer.setAttribute('id','transcript_renderer');
+transcript_renderer.setAttribute('style','overflow-y:scroll;');
+transcript_renderer.setAttribute('onkeydown','onkp()');
+transcript_column.appendChild(transcript_submission);
+transcript_column.appendChild(transcript_renderer);
 
 url_flag = document.createElement('div');
 transcript_flag = document.createElement('div');
