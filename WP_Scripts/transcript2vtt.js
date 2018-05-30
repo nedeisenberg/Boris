@@ -50,7 +50,7 @@ mp4_submission.setAttribute('id','mp4_submission');
   mp4_submission.appendChild(mp4_url);
   mp4_submission.appendChild(submit_mp4);
 active_video = document.createElement('video');
-active_video.style.width = '33.333%';
+active_video.style.width = '33.333vw';
 active_video.setAttribute('id','active_video');
 video_column.appendChild(playhead_counter);
 video_column.appendChild(mp4_submission);
