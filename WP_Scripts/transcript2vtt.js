@@ -21,6 +21,7 @@ instructions = document.createElement('div');
 instructions.classList.add('text')
 instructions.innerHTML = 'Please click blocks as they\'re spoken...  # keys change the playback rate: '
 signal = document.createElement('div');
+signal.setAttribute('id','signal')
 signal.classList.add('heads_up');
 signal.innerHTML = "0.75";
 
@@ -110,49 +111,49 @@ jQuery(document).keypress(function(e) {
   if(e.which == 49) {
       console.log('You pressed 1!');
       speed=.5;
-      document.getElementById("heads_up").textContent=""+speed;
+      document.getElementById("signal").textContent=""+speed;
       video.playbackRate=speed;
   }
   if(e.which == 50) {
       console.log('You pressed 2!');
       speed=.75;
-      document.getElementById("heads_up").textContent=""+speed;
+      document.getElementById("signal").textContent=""+speed;
       video.playbackRate=speed;
   }
   if(e.which == 51) {
       console.log('You pressed 3!');
       speed=1.0;
-      document.getElementById("heads_up").textContent=""+speed;
+      document.getElementById("signal").textContent=""+speed;
       video.playbackRate=speed;
   }
   if(e.which == 52) {
       console.log('You pressed 4!');
       speed=1.25;
-      document.getElementById("heads_up").textContent=""+speed;
+      document.getElementById("signal").textContent=""+speed;
       video.playbackRate=speed;
   }
   if(e.which == 53) {
       console.log('You pressed 5!');
       speed=1.5;
-      document.getElementById("heads_up").textContent=""+speed;
+      document.getElementById("signal").textContent=""+speed;
       video.playbackRate=speed;
   }
   if(e.which == 54) {
       console.log('You pressed 6!');
       speed=1.75;
-      document.getElementById("heads_up").textContent=""+speed;
+      document.getElementById("signal").textContent=""+speed;
       video.playbackRate=speed;
   }
   if(e.which == 55) {
       console.log('You pressed 7!');
       speed=2.0;
-      document.getElementById("heads_up").textContent=""+speed;
+      document.getElementById("signal").textContent=""+speed;
       video.playbackRate=speed;
   }
   if(e.which == 56) {
       console.log('You pressed 8!');
       speed=2.25;
-      document.getElementById("heads_up").textContent=""+speed;
+      document.getElementById("signal").textContent=""+speed;
       video.playbackRate=speed;
   }
   if(e.which == 57) {
