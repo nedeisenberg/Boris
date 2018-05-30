@@ -77,11 +77,6 @@ transcript_flag = document.createElement('div');
 vtt_renderer = document.createElement('div');
 download_vtt = document.createElement('div');
 
-// 	<div id="transcript_submission">
-// 		<textarea id="transcript_entry" style="height:400px;width:85%;">PASTE TRANSCRIPT HERE</textarea>
-// 		<input type="button" id="submit_transcript" value="Submit"></input>
-// 	</div>
-// 	<div id="transcript_renderer" style="overflow-y: scroll;" onkeydown="onkp()"></div>
 //
 // <span class="column" id="vtt_column">
 // <div id="url_heads_up" class="heads_up">Please enter video URL</div>

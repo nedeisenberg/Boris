@@ -9,6 +9,7 @@
   width : 33.333%;
   display: inline-block;
   top:0;
+  float: left;
 }
 
 .title
