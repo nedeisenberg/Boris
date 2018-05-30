@@ -57,6 +57,7 @@ video_column.appendChild(active_video);
 
   //TRANSCRIPT
 transcript_submission = document.createElement('div');
+transcript_submission.setAttribute('id','transcript_submission');
   transcript_entry = document.createElement('textarea');
   transcript_entry.setAttribute('id','transcript_entry');
   transcript_entry.style.height = '80%';
