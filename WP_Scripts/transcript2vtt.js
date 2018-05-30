@@ -15,7 +15,7 @@ title = document.createElement('div');
 title.innerHTML = 'check';
 
 video_column.appendChild(title);
-)
+
 
 
 //attach content to hook
