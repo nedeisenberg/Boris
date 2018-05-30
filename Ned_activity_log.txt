@@ -14,6 +14,8 @@ Hours: 7 230
     -Created switchboard for loading/executing scripts
     -Created unified GitHub development repository
     -Began porting Transcript2VTT
+      -Ascertained need for custom CSS
+        -Init univ.css
       -Next Steps:
         -Develop native pdf app
 
