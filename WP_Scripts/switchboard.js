@@ -6,7 +6,7 @@ loadScript.type = 'text/javascript';
 switch(script_name){
    case "transcript2vtt":
       jQuery('#content').children().hide();
-      loadScript.src = 'https://nedeisenberg.github.io/Transcript2VTT/main.js';
+      loadScript.src = 'https://nedeisenberg.github.io/Boris/WP_Scripts/transcript2vtt.js';
       break;
    case "else":
       console.log('different');
