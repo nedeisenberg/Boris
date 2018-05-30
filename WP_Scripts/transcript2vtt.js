@@ -19,7 +19,7 @@ title.innerHTML = 'TRANSCRIPT2SUB Tool';
 
 instructions = document.createElement('div');
 instructions.classList.add('text')
-instructions.innerHTML = 'Please click blocks as spoken... Number keys change playback rate: '
+instructions.innerHTML = 'Please click blocks as they\'re spoken...  Number keys change the playback rate: '
 signal = document.createElement('div');
 signal.classList.add('heads_up');
 signal.innerHTML = "0.75";
@@ -34,6 +34,7 @@ transcript_column.appendChild(signal);
 vtt_column.appendChild(result);
 
 ///CREATE MODULES
+  //VIDEO
 playhead_counter = document.createElement('div');
 playhead_counter.setAttribute('id','playhead_counter');
 playhead_counter.style.display = 'none';
@@ -54,6 +55,7 @@ video_column.appendChild(playhead_counter);
 video_column.appendChild(mp4_submission);
 video_column.appendChild(active_video);
 
+  //TRANSCRIPT
 transcript_submission = document.createElement('div');
   transcript_entry = document.createElement('textarea');
   transcript_entry.setAttribute('id','transcript_entry');
@@ -72,6 +74,7 @@ transcript_renderer.setAttribute('onkeydown','onkp()');
 transcript_column.appendChild(transcript_submission);
 transcript_column.appendChild(transcript_renderer);
 
+  //RESULTS
 url_flag = document.createElement('div');
 transcript_flag = document.createElement('div');
 vtt_renderer = document.createElement('div');
