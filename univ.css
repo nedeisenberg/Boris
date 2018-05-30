@@ -1,3 +1,9 @@
+.app_container
+{
+  display:block;
+  width:100%;
+}
+
 .column_third
 {
   width : 33.333%;

@@ -2,7 +2,7 @@
 
 WEEK 12
 5/24/2018 - 5/30/2018
-Hours: 7.5
+Hours: 8 4:45
 -Began migrating existing tools and frameworks to respective WordPress sites.
   -Initialized BCLjsEnqueue.php and CISjsEnqueue.php plugins
     -for registering and enqueuing scripts into WordPress
@@ -109,7 +109,7 @@ Hours: 5
   -In the process, I discovered and earmarked useful paradigms such as,
     -media fragments, webvtt, and the HTML5 video element & its attributes.
 -Created a demo prototype @ neocities.org for hypertext video navigation in HTML,
-  -using Python to parse the transcript source and dynamically generate html files.
+  -using Python to parse the transcript source and d0ynamically generate html files.
 
 WEEK 2
 2/29/2018 - 3/7/2018

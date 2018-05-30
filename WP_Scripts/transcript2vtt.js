@@ -1,12 +1,13 @@
+container = document.createElement('div');
+container.classList.add('app_container');
+
 video_column = document.createElement('div');
-video_column.setAttribute('id','doesntmatter');
 video_column.classList.add('column_third');
-video_column.innerHTML = 'bonjour';
 
-second_column = video_column.cloneNode(true);
+transcript_column = video_column.cloneNode(true);
+vtt_column = video_column.cloneNode(true);
 
-second_column.innerHTML= 'bon nuit';
-
+container.appendChild([video_column,transcript_column,vtt_column]);
 
 
 //attach content to hook
