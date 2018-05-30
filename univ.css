@@ -11,6 +11,12 @@
   /font-size: 4000%;
 }
 
+.title
+{
+  text-align: center;
+  font-weight: bold;
+}
+
 .text
 {
     display:inline-block;

@@ -15,7 +15,8 @@ container.appendChild(vtt_column);
 ///LABEL COLUMNS
 
 title = document.createElement('div');
-title.innerHTML = 'check';
+title.classList.add('title');
+title.innerHTML = 'TRANSCRIPT2SUB Tool';
 
 instructions = document.createElement('div');
 instructions.classList.add('text')
@@ -25,6 +26,7 @@ signal.classList.add('heads_up');
 signal.innerHTML = "Playback Speed: 0.75";
 
 result = document.createElement('div');
+result.classList.add('title');
 result.innerHTML = 'VTT subtitles';
 
 video_column.appendChild(title);
