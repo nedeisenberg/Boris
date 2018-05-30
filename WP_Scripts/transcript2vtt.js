@@ -92,6 +92,10 @@ download_vtt.setAttribute('id','download_vtt');
 download_vtt.style.display = 'none';
 download_vtt.innerHTML = 'Download VTT';
 
+vtt_column.appendChild(url_flag);
+vtt_column.appendChild(transcript_flag);
+vtt_column.appendChild(vtt_renderer);
+vtt_column.appendChild(download_vtt);
 
 //attach content to hook
 jQuery("#content").append(container);
