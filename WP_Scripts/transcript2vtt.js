@@ -19,7 +19,7 @@ title.innerHTML = 'TRANSCRIPT2SUB Tool';
 
 instructions = document.createElement('div');
 instructions.classList.add('text')
-instructions.innerHTML = 'Please click blocks as spoken... # keys change playback rate: '
+instructions.innerHTML = 'Please click blocks as spoken... Number keys change playback rate: '
 signal = document.createElement('div');
 signal.classList.add('heads_up');
 signal.innerHTML = "0.75";
