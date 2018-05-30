@@ -19,10 +19,10 @@ title.innerHTML = 'TRANSCRIPT2SUB Tool';
 
 instructions = document.createElement('div');
 instructions.classList.add('text')
-instructions.innerHTML = 'Please click upon the blocks as they\'re spoken...'
+instructions.innerHTML = 'Please click blocks as spoken... # keys change playback rate: '
 signal = document.createElement('div');
 signal.classList.add('heads_up');
-signal.innerHTML = "Playback Speed: 0.75";
+signal.innerHTML = "0.75";
 
 result = document.createElement('div');
 result.classList.add('title');
