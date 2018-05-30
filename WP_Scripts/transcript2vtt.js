@@ -7,6 +7,10 @@ video_column.classList.add('column_third');
 transcript_column = video_column.cloneNode(true);
 vtt_column = video_column.cloneNode(true);
 
+video_column.setAttribute('id','video_column');
+transcript_column.setAttribute('id','transcript_column');
+vtt_column.setAttribute('id','vtt_column');
+
 container.appendChild(video_column);
 container.appendChild(transcript_column);
 container.appendChild(vtt_column);
