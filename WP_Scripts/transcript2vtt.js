@@ -11,5 +11,4 @@ container.appendChild([video_column,transcript_column,vtt_column]);
 
 
 //attach content to hook
-jQuery("#content").append(video_column);
-jQuery("#content").append(second_column);
+jQuery("#content").append(container);
