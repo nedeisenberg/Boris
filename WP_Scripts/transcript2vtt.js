@@ -35,7 +35,7 @@ vtt_column.appendChild(result);
 
 ///CREATE MODULES
 playhead_counter = document.createElement('div');
-playhead_counter.attr('id')='playhead_counter';
+playhead_counter.setAttribute('id','playhead_counter');
 playhead_counter.style.display = 'none';
 mp4_submission = document.createElement('div');
 mp4_submission.setAttribute('id','mp4_submission');
