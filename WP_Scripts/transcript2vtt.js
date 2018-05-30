@@ -19,7 +19,7 @@ title.innerHTML = 'TRANSCRIPT2SUB Tool';
 
 instructions = document.createElement('div');
 instructions.classList.add('text')
-instructions.innerHTML = 'Please click blocks as they\'re spoken...  Number keys change the playback rate: '
+instructions.innerHTML = 'Please click blocks as they\'re spoken...  # keys change the playback rate: '
 signal = document.createElement('div');
 signal.classList.add('heads_up');
 signal.innerHTML = "0.75";
@@ -76,19 +76,21 @@ transcript_column.appendChild(transcript_renderer);
 
   //RESULTS
 url_flag = document.createElement('div');
+url_flag.setAttribute('id','url_flag');
+url_flag.setAttribute('class','flag');
+url_flag.innerHTML = 'Please enter video URL';
 transcript_flag = document.createElement('div');
+transcript_flag.setAttribute('id','transcript_flag');
+transcript_flag.setAttribute('class','flag');
+transcript_flag.innerHTML = 'Please paste the video transcript';
 vtt_renderer = document.createElement('div');
+vtt_renderer.setAttribute('id','vtt_renderer');
+vtt_renderer.setAttribute('style','overflow-y:scroll;white-space: pre;');
+vtt_renderer.innerHTML = 'WEBVTT \n 00:00:01.000 --> '
 download_vtt = document.createElement('div');
-
-//
-// <span class="column" id="vtt_column">
-// <div id="url_heads_up" class="heads_up">Please enter video URL</div>
-// <div id="transcript_heads_up" class="heads_up">Please paste the video transcript</div>
-// <div id="vtt_renderer" style="overflow-y: scroll;white-space: pre;">WEBVTT
-// 00:00:01.000 --> </div>
-// <button id="download_vtt" style="display:none;">Download VTT</button>
-// </span>
-// </div>
+download_vtt.setAttribute('id','download_vtt');
+download_vtt.style.display = 'none';
+download_vtt.innerHTML = 'Download VTT';
 
 
 //attach content to hook

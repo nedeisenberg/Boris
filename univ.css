@@ -28,3 +28,9 @@
   display: inline-block;
   float:right;
 }
+
+.flag
+{
+  color: red;
+	background:yellow;
+}
