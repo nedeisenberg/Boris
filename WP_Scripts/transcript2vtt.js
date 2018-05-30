@@ -13,7 +13,6 @@ container.appendChild(vtt_column);
 
 
 ///LABEL COLUMNS
-
 title = document.createElement('div');
 title.classList.add('title');
 title.innerHTML = 'TRANSCRIPT2SUB Tool';
@@ -36,14 +35,49 @@ vtt_column.appendChild(result);
 
 ///CREATE MODULES
 playhead_counter = document.createElement('div');
-mp4_submission = document.createElement('input');
-submit_mp4 = document.createElement('input');
-active_video = document.createElement('div');
+playhead_counter.attr('id')='playhead_counter';
+playhead_counter.style.display = 'none';
+mp4_submission = document.createElement('div');
+mp4_submission.attr('id')='mp4_submission';
+  mp4_url = document.createElement('input')
+  mp4_url.attr('id')='mp4_url';
+  mp4_url.attr('value')='PASTE MP4 URL';
+  submit_mp4 = document.createElement('input');
+  submit_mp4.attr('type')='button';
+  submit_mp4.attr('id')='submit_mp4';
+  submit_mp4.attr('value')='Ok';
+  mp4_submission.appendChild(mp4_url);
+  mp4_submission.appendChild(submit_mp4);
+active_video = document.createElement('video');
+active_video.attr('id')='active_video';
+video_column.appendChild(playhead_counter);
+video_column.appendChild(mp4_submission);
+video_column.appendChild(active_video);
 
 transcript_submission = document.createElement('div');
 transcript_entry = document.createElement('textarea');
 submit_transcript = document.createElement('input');
 transcript_renderer = document.createElement('div');
+
+url_flag = document.createElement('div');
+transcript_flag = document.createElement('div');
+vtt_renderer = document.createElement('div');
+download_vtt = document.createElement('div');
+
+// 	<div id="transcript_submission">
+// 		<textarea id="transcript_entry" style="height:400px;width:85%;">PASTE TRANSCRIPT HERE</textarea>
+// 		<input type="button" id="submit_transcript" value="Submit"></input>
+// 	</div>
+// 	<div id="transcript_renderer" style="overflow-y: scroll;" onkeydown="onkp()"></div>
+//
+// <span class="column" id="vtt_column">
+// <div id="url_heads_up" class="heads_up">Please enter video URL</div>
+// <div id="transcript_heads_up" class="heads_up">Please paste the video transcript</div>
+// <div id="vtt_renderer" style="overflow-y: scroll;white-space: pre;">WEBVTT
+// 00:00:01.000 --> </div>
+// <button id="download_vtt" style="display:none;">Download VTT</button>
+// </span>
+// </div>
 
 
 //attach content to hook
