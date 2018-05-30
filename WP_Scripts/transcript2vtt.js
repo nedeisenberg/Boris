@@ -14,8 +14,20 @@ container.appendChild(vtt_column);
 title = document.createElement('div');
 title.innerHTML = 'check';
 
-video_column.appendChild(title);
+instructions = document.createElement('div');
+instructions.innerHTML = 'Please click upon the blocks as they\'re spoken...'
+signal = document.createElement('div');
+signal.classList.add('heads_up');
+signal.innerHTML = "Playback Speed: 0.75";
 
+result = document.createElement('div');
+result.innerHTML = 'VTT subtitles';
+
+
+video_column.appendChild(title);
+transcript_column.appendChild(instructions);
+transcript_column.appendChild(signal);
+vtt_column.appendChild(result);
 
 
 //attach content to hook
