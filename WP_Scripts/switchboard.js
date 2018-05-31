@@ -8,8 +8,9 @@ switch(script_name){
       jQuery('#content').children().hide();
       loadScript.src = 'https://nedeisenberg.github.io/Boris/WP_Scripts/transcript2vtt.js';
       break;
-   case "else":
-      console.log('different');
+   case "pdfOCR":
+      jQuery('#content').children().hide();
+      loadScript.src = 'https://nedeisenberg.github.io/Boris/WP_Scripts/pdf_display.js';
       break;
    default:
       console.log('tag not found');
