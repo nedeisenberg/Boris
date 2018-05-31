@@ -1,5 +1,5 @@
 //'use strict'
-theCanvas = document.createElement('canvas');
+var theCanvas = document.createElement('canvas');
 theCanvas.setAttribute('id','the-canvas');
 
 
