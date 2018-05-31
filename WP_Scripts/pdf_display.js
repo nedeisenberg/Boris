@@ -1,7 +1,7 @@
 'use strict'
 
 var url = "http://bclarchive.net/wp-content/uploads/2018/05/00003.pdf";
-PDFJS.getDocument(url).then(function(pdf){
+pdfjsLib.getDocument(url).then(function(pdf){
   return pdf.getPage(1);
 }).then(function(page){
 var scale = 1.5;
