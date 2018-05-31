@@ -20,6 +20,7 @@ Hours: 11.5
     -Initialized and linked universal CSS stylesheet
       -univ.css
     -Ported Transcript2VTT
+  -FINALLY enabled pdf.js!
 
 WEEK 11
 5/17/2018 - 5/23/2018
