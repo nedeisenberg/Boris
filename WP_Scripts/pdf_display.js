@@ -1,9 +1,12 @@
 //'use strict'
+
+
 var theCanvas = document.createElement('canvas');
 theCanvas.setAttribute('id','the-canvas');
 theCanvas.setAttribute('height','400');
 theCanvas.setAttribute('width','400');
 
+jQuery('#context').appendChild(theCanvas);
 
 var url = "http://bclarchive.net/wp-content/uploads/2018/05/00003.pdf";
 pdfjsLib.getDocument(url).then(function(pdf){
