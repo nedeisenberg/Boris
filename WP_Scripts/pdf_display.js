@@ -1,4 +1,7 @@
 'use strict'
+theCanvas = document.createElement('canvas');
+theCanvas.setAttribute('id','the-canvas');
+
 
 var url = "http://bclarchive.net/wp-content/uploads/2018/05/00003.pdf";
 pdfjsLib.getDocument(url).then(function(pdf){
