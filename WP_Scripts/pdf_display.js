@@ -1,4 +1,4 @@
-'use strict'
+//'use strict'
 theCanvas = document.createElement('canvas');
 theCanvas.setAttribute('id','the-canvas');
 
