@@ -12,5 +12,18 @@ rightColumn.innerHTML = 'transcript';
 container.appendChild(leftColumn);
 container.appendChild(rightColumn);
 
+videoBlock = document.createElement('div');
+controlsBlock = document.createElement('div');
+transcriptBlock = document.createElement('div');
+
+active_video = document.createElement('video');
+active_video.style.width = '33.333vw';
+active_video.setAttribute('id','active_video');
+
+
+videoBlock.appendChild(active_video);
+leftColumn.appendChild(videoBlock);
+
+
 //attach content to hook
 jQuery("#content").append(container);
