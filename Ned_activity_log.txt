@@ -1,7 +1,15 @@
+WEEK 14
+6/7/2018 - 6/13/2018
+Hours: 2:35
+  -Working on video scroller
+
 WEEK 13
 5/31/2018 - 6/6/2018
-Hours:
+Hours: 1
   -Began developing pdfOCR
+  -Began porting video scroller
+    -designed new layout
+  -Initialized uploading mechanism for content
 
 
 WEEK 12
