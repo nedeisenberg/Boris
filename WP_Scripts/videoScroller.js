@@ -4,9 +4,12 @@ container.classList.add('app_container');
 
 //divide into main and sidebar
 main = document.createElement('div');
+main.classList.add('main');
 sidebar = document.createElement('div');
+sidebar.classList.add('sidebar');
 
-
+container.appendChild(main);
+container.appendChild(sidebar);
 
 //divide into left and rightcolumns
 leftColumn = document.createElement('div');
@@ -17,8 +20,8 @@ rightColumn.classList.add('column_half');
 leftColumn.innerHTML = 'video and controls';
 rightColumn.innerHTML = 'transcript';
 
-container.appendChild(leftColumn);
-container.appendChild(rightColumn);
+main.appendChild(leftColumn);
+main.appendChild(rightColumn);
 
 videoBlock = document.createElement('div');
 controlsBlock = document.createElement('div');

@@ -4,6 +4,24 @@
   width:100%;
 }
 
+.main
+{
+  width: 75%;
+  top:0;
+  display: inline-block;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.sidebar
+{
+  width: 25%;
+  top:0;
+  display: inline-block;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
 .column_third
 {
   width : 33.333%;

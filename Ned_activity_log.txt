@@ -1,6 +1,6 @@
 WEEK 14
 6/7/2018 - 6/13/2018
-Hours: 1
+Hours: 1 4:35
   -Working on video scroller
 
 WEEK 13
