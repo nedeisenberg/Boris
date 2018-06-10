@@ -4,6 +4,15 @@
   width:100%;
 }
 
+.spacer
+{
+  width:10%;
+  top:0;
+  display: inline-block;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
 .main
 {
   width: 75%;
