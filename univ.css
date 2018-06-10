@@ -15,7 +15,7 @@
 
 .main
 {
-  width: 75%;
+  width: 60%;
   top:0;
   display: inline-block;
   height: 70vh;
@@ -24,7 +24,7 @@
 
 .sidebar
 {
-  width: 25%;
+  width: 20%;
   top:0;
   display: inline-block;
   height: 70vh;

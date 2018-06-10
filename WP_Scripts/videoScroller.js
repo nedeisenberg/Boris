@@ -3,12 +3,14 @@ container = document.createElement('div');
 container.classList.add('app_container');
 
 //divide into main and sidebar
-spacer = document.createElement('div');
-spacer.classList.add('spacer');
+leftSpacer = document.createElement('div');
+leftSpacer.classList.add('spacer');
 main = document.createElement('div');
 main.classList.add('main');
 sidebar = document.createElement('div');
 sidebar.classList.add('sidebar');
+rightSpacer = document.createElement('div');
+rightSpacer.classList.add('spacer');
 
 container.appendChild(spacer);
 container.appendChild(main);
@@ -26,6 +28,8 @@ rightColumn.innerHTML = 'transcript';
 main.appendChild(leftColumn);
 main.appendChild(rightColumn);
 
+//left column contents
+
 videoBlock = document.createElement('div');
 controlsBlock = document.createElement('div');
 transcriptBlock = document.createElement('div');
@@ -37,6 +41,15 @@ active_video.setAttribute('id','active_video');
 
 videoBlock.appendChild(active_video);
 leftColumn.appendChild(videoBlock);
+
+//rightcolumn contents
+
+//search block
+
+  //search term
+  //tabs
+
+//transcript_text
 
 
 //attach content to hook
