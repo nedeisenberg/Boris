@@ -10,6 +10,7 @@ main.classList.add('main');
 sidebar = document.createElement('div');
 sidebar.classList.add('sidebar');
 
+container.appendChild(spacer);
 container.appendChild(main);
 container.appendChild(sidebar);
 
