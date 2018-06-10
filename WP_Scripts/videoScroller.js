@@ -1,6 +1,14 @@
+//create container for web app
 container = document.createElement('div');
 container.classList.add('app_container');
 
+//divide into main and sidebar
+main = document.createElement('div');
+sidebar = document.createElement('div');
+
+
+
+//divide into left and rightcolumns
 leftColumn = document.createElement('div');
 rightColumn = document.createElement('div');
 leftColumn.classList.add('column_half');
