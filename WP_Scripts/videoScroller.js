@@ -4,7 +4,7 @@ container.classList.add('app_container');
 
 //divide into main and sidebar
 spacer = document.createElement('div');
-spacer.classList.add('space');
+spacer.classList.add('spacer');
 main = document.createElement('div');
 main.classList.add('main');
 sidebar = document.createElement('div');
