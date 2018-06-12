@@ -1,7 +1,10 @@
 WEEK 14
 6/7/2018 - 6/13/2018
-Hours: 1 4:35
+Hours: 3
   -Working on video scroller
+  -Reading about custom sql datasets
+    -for search engine
+  -Started on WP-JSON / RESTful API handbook
 
 WEEK 13
 5/31/2018 - 6/6/2018
