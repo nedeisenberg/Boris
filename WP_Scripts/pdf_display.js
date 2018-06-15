@@ -1,6 +1,12 @@
 container = document.createElement('div');
 container.classList.add('app_container');
 
+leftColumn = document.createElement('div');
+rightColumn= document.createElement('div');
+
+leftColumn.classList.add('column_half');
+rightColumn.classList.add('column_half');
+
 theCanvas = document.createElement('canvas');
 theCanvas.setAttribute('id','the-canvas');
 theCanvas.setAttribute('height','400');
