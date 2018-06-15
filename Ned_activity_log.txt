@@ -1,3 +1,11 @@
+WEEK 15
+6/14/2018 - 6/20/2018
+Hours: 2:15
+  -work on pdf scripting
+  -digest massive text data
+    -for loop
+
+
 WEEK 14
 6/7/2018 - 6/13/2018
 Hours: 3.75
@@ -11,6 +19,7 @@ Hours: 3.75
     -domain.net/wp-json/wp/v2/media
     -dynamically assign categories, get by categories
       -commmon keywords in or across
+
 WEEK 13
 5/31/2018 - 6/6/2018
 Hours: 1
