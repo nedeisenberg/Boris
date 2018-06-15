@@ -14,6 +14,9 @@ theCanvas.setAttribute('width','400');
 
 leftColumn.appendChild(theCanvas);
 
+container.appendChild(leftColumn);
+container.appendChild(rightColumn);
+
 var url = "http://bclarchive.net/wp-content/uploads/2018/05/00003.pdf";
 pdfjsLib.getDocument(url).then(function(pdf){
   return pdf.getPage(1);
