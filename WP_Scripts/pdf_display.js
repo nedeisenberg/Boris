@@ -33,6 +33,7 @@ viewport:viewport
 };
 page.render(renderContext);
 rightColumn.innerHTML= page.getTextContent().items.map(function (s) { return s.str; }).join('');
+console.log('updated');
 });
 
 
