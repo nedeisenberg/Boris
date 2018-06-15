@@ -32,7 +32,7 @@ canvasContext:context,
 viewport:viewport
 };
 page.render(renderContext);
-rightColumn.innerHTML= page.textLayer;
+rightColumn.innerHTML= pdf.textLayer;
 });
 
 
