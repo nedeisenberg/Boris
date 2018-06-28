@@ -1,6 +1,15 @@
+WEEK 16
+6/21/2018 - 6/27/2018
+Hours: 10
+  -Learning the foundations of CMS
+    -Lynda Courses
+      -Ruby Essential Training
+      -Ruby on Rails Essential Training
+      -Foundations of Programming: Databases
+
 WEEK 15
 6/14/2018 - 6/20/2018
-Hours: 3
+Hours: 6
   -work on pdf scripting
   -digest massive text data
     -for loop
@@ -9,6 +18,7 @@ Hours: 3
         -wiki framework
       -pyramid (python)
     - Morepath
+  -Doing Ruby on Rails
 
 
 WEEK 14
