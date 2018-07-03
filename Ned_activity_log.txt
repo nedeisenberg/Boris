@@ -1,3 +1,10 @@
+WEEK 17
+6/28/2018 - 7/4/2018
+Hours: 1
+  -Using pdf2htmlEX by Cool Wang Luke, converted pdf into html
+    -conserving appearance and text
+    -will simplify database construction
+
 WEEK 16
 6/21/2018 - 6/27/2018
 Hours: 10
