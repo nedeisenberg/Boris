@@ -1,10 +1,11 @@
 WEEK 18
 7/5/2018 - 7/11/2018
-Hours: 1
+Hours: 2
   -Created a new folder, Database Tables, inside my drive folder
   -Created template tables for each of the four entities comprising BCL Archive
     -These entities are Article, Author, Publication, and Fiche; additionally Tag, e.i. keyword
     -There is a Table for each entity, as well as Linking Tables for many-to-many relationships
+    -Tables are optimized against redundancies
 
 WEEK 17
 6/28/2018 - 7/4/2018
