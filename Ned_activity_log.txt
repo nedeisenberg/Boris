@@ -7,7 +7,7 @@ Hours: 3
     -There is a Table for each entity, as well as Linking Tables for many-to-many relationships
     -Tables are optimized against redundancies
   -began learning about the $wpdb class for WordPress database ops
-    -using WP codex
+    -in WP codex
 
 WEEK 17
 6/28/2018 - 7/4/2018
